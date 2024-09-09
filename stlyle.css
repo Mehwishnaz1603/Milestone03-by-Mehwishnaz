@@ -1,0 +1,80 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(236, 210, 189);
+    }
+    
+    h1{
+        text-align: center;
+         color: #270d70 ;
+    }
+    
+    form{
+        max-width:  600px; ;
+        margin: auto; 
+        background-color: rgb(230, 143, 143) ;
+        border-radius: 10px;
+        box-shadow:  4px 8px rgb(0,0,0,0.2);
+        padding: 20px;
+    }
+    
+    fieldset{
+    border: 2px solid rgb(214, 131, 131);
+    border-radius: 8px;
+    padding: 2opx;
+    margin-bottom: 20px;
+    background-color:rgb(190, 203, 209) ;
+    }
+    
+    legend{
+        font-weight: bold;
+        text-align: left;
+        color: black;
+    }
+    
+    label{
+        display: block;
+        margin-top:10px ;
+        color: black;
+    }
+    input,textarea{
+        width: calc(100% - 1px);
+        padding: 4px;
+        margin-top: 4px;
+        border: 1px solid rgb(47, 64, 161);
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    button{
+        display: block;
+        width: 10 percent;
+        padding: 1opx;
+        background-color: rgb(167, 44, 85);
+        color: black;
+        border:none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    button:hover{
+        background-color: rgb(0, 162, 255);
+    }
+
+    #resumeResult {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 2px solid rgb(231, 156, 193);
+        border-radius: 8px;
+        background-color: aliceblue;
+        box-shadow: 0 4px 8px orchid;
+    }
+
+    #resumeResult h2 {
+        color: rgb(66, 134, 112);
+        
+
+    }
