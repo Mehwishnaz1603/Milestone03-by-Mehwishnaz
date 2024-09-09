@@ -1,4 +1,5 @@
-<html lang="en"></html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,14 +23,14 @@
 
     <fieldset>
       <legend>Education</legend>
-      <label for="edoucation">Education:</label>
+      <label for="education">Education:</label> <!-- Fixed typo 'edoucation' -->
       <textarea id="education" name="education" rows="3" required></textarea><br>
     </fieldset>
 
     <fieldset>
       <legend>Work Experience</legend>
-      <label for="work experience">Work Experience:</label>
-      <textarea id="experience" name="experience " rows="3" required></textarea><br>
+      <label for="experience">Work Experience:</label> <!-- Fixed 'for' attribute -->
+      <textarea id="experience" name="experience" rows="3" required></textarea><br> <!-- Fixed name attribute spacing -->
     </fieldset>
 
     <fieldset>
@@ -39,10 +40,12 @@
     </fieldset>
 
     <button type="submit">Generate Resume Below</button>
-</form> 
+  </form> 
 
-<div id= "resumeResult" > </div>
-<!-- Resume will be Generated Below -->
- <script> src="index.js" </script>
+  <div id="resumeResult"> <!-- Added a space before '>' for consistency -->
+    <!-- Resume will be Generated Below -->
+  </div>
+
+  <script src="index.js"></script> <!-- Fixed script tag syntax -->
 </body>
 </html>
