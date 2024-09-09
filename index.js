@@ -2,7 +2,6 @@ var _a;
 // listing
 (_a = document.getElementById("resumeForm")) === null || _a === void 0 ? void 0 : _a.addEventListener("submit", function (event) {
     event.preventDefault();
-    console.log("Form submitted");
     // Type assertions for input elements
     var nameElement = document.getElementById("name");
     var emailElement = document.getElementById("email");
