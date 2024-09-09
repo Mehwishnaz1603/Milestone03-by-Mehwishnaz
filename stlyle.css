@@ -22,7 +22,7 @@ body {
     fieldset{
     border: 2px solid rgb(214, 131, 131);
     border-radius: 8px;
-    padding: 2opx;
+    padding: 20px;
     margin-bottom: 20px;
     background-color:rgb(190, 203, 209) ;
     }
@@ -39,7 +39,7 @@ body {
         color: black;
     }
     input,textarea{
-        width: calc(100% - 1px);
+        width: calc(100% - 8px);
         padding: 4px;
         margin-top: 4px;
         border: 1px solid rgb(47, 64, 161);
@@ -48,8 +48,8 @@ body {
     }
     button{
         display: block;
-        width: 10 percent;
-        padding: 1opx;
+        width: 10%;
+        padding: 10px;
         background-color: rgb(167, 44, 85);
         color: black;
         border:none;
